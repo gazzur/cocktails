@@ -1,0 +1,77 @@
+ul{
+    margin:0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    margin: 2px auto;
+   /*  background-color: #1976d2; */
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+    width: 80%;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.backButt{
+    
+    color: rgb(226, 98, 183);
+    font-weight: normal;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.MuiBox-root{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    text-align: left;
+}
+
+.whitePill{
+    display: flex;
+    background-color: white;
+    color: #e262b7;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.infoPanel h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.MuiFilledInput-root{
+   /*  background-color: rgba(228, 85, 117, .8); */
+    color: rgba(228, 85, 117, .8);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .infoPanel h1{
+      font-size: 30px;
+    }
+  }
+
+.infoPanel h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.infoPanel h4{
+    margin: 10px auto;
+}
+
+.whitePill h4, .whitePill h3{
+    width: 50%;
+    margin: 10px;
+}
