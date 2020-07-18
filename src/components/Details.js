@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Cocktails from '../cocktails.json'
 import Box from '@material-ui/core/Box';
 import Slide from '@material-ui/core/Slide';
